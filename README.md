@@ -6,7 +6,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  <!-- - [Screenshot](#screenshot) -->
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -20,9 +20,9 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-<!-- ### Screenshot
+### Screenshot
 
-![](./screenshot.jpg) -->
+![screenshot](./screenshots/screenshot.png)
 
 ### Links
 
@@ -35,12 +35,9 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-<!-- - Flexbox
+- Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles -->
 
 ## Author
 
