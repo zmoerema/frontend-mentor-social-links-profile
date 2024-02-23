@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Off-Black);
+    color: var(--White);
+    font-family: "Inter";
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+#container {
+    width: 330px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--Dark-Grey);
+}
+
+#profile-picture {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.infos {
+    font-weight: 600;
+}
+
+#location {
+    color: var(--Green);
+}
+
+#about-me {
+    opacity: 0.8;
+    margin: 40px auto;
+}
+
+#social-links {
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+#social-links li {
+    background-color: var(--Grey);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+#social-links a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+#social-links a:visited {
+    color: var(--White);
+}
+
+#social-links a:hover > li {
+    background-color: var(--Green);
+    color: var(--Dark-Grey);
+}
